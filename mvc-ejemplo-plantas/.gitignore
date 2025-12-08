@@ -1,0 +1,22 @@
+# Ignorar dependencias de Composer
+/vendor/
+
+# Ignorar archivos de configuración específicos
+composer.lock
+
+# Ignorar archivos sensibles
+.env
+
+# Ignorar archivos temporales y de sistema
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Ignorar cachés de editores
+.vscode/
+.idea/
+
+# Ignorar archivos de sistema de Windows
+desktop.ini
