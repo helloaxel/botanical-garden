@@ -1,5 +1,6 @@
 <?php
 
+require_once __DIR__ . '/../vendor/autoload.php';
 require_once __DIR__ . '/../Model/PlantaModel.php';
 
 use Twig\Loader\FilesystemLoader;
@@ -11,7 +12,7 @@ class PlantaController {
 
     public function __construct() {
         $this->model = new PlantaModel();
-        $loader = new FilesystemLoader((__DIR__ . '/../views'));
+        $loader = new FilesystemLoader((__DIR__ . '/../Views'));
         $this->twig = new Environment($loader);
     }
 
