@@ -1,0 +1,8 @@
+{
+    "name": "axel/mvc-ejemplo-plantas",
+    "description": "mvc pattern example with Twig implementation",
+    "type": "project",
+    "require": {
+        "twig/twig": "^3.22"
+    }
+}

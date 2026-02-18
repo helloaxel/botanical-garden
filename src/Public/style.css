@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+    background-color: #e8f5e9;
+    padding: 20px;
+}
+
+h1 {
+    color: #5fcf65;
+}
+
+li{
+    margin-bottom: 8px;
+}

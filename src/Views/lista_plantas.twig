@@ -1,0 +1,11 @@
+{% extends "layout.twig" %}
+
+{%block contenido %}
+    <h1>Lista:</h1>
+    <ul>
+        {% for planta in plantas %}
+            <li>{{planta.nombre}} ({{planta.tipo}})</li>
+        {% endfor %}
+    </ul>
+{% endblock%}
+
